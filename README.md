@@ -8,6 +8,11 @@ The component works just like the default HorizontalLayoutGroup. The only differ
 The implementation is based on Unity's HorizontalLayoutGroup located below.
 https://bitbucket.org/Unity-Technologies/ui/src/2019.1/UnityEngine.UI/UI/Core/Layout/LayoutGroup.cs
 
+## Usage
+This is a standard Unity package you can add to your project using [Git URLs](https://docs.unity3d.com/Manual/upm-git.html).
+
+Check out the showcase project to see a sample Unity project that uses this package. 
+https://github.com/hk1ll3r/ShowcaseOfBidirectionalHorizontalLayoutGroup
 
 ## Notes
 The Left and Right padding fields always refer to Left and Right respectively regardless of whether "reverse" is checked. However "children alignment" field gets reversed along with the children's order. Take the following examples.
