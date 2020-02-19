@@ -11,7 +11,7 @@ using UnityEditor;
 using UnityEditor.Callbacks;
 #endif
 
-namespace com.nosuchstudio.ui {
+namespace NoSuchStudio.UI {
 
     [AddComponentMenu("Layout/Bidirectional Horizontal Layout Group", 153)]
     /// <summary>

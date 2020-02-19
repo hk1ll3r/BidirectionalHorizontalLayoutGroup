@@ -3,7 +3,7 @@ using UnityEngine.UI;
 using UnityEditor;
 using UnityEditor.AnimatedValues;
 
-namespace com.nosuchstudio.ui
+namespace NoSuchStudio.UI
 {
     [CustomEditor(typeof(BidirHorizontalLayoutGroup), true)]
     [CanEditMultipleObjects]
