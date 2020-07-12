@@ -1,7 +1,5 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
 using UnityEditor;
-using UnityEditor.AnimatedValues;
 
 namespace NoSuchStudio.UI
 {
@@ -87,7 +85,7 @@ namespace NoSuchStudio.UI
             EditorGUI.indentLevel = oldIndent;
             if (EditorGUI.EndChangeCheck())
             {
-                property.boolValue = property.hasMultipleDifferentValues ? true : !property.boolValue;
+                property.boolValue = property.hasMultipleDifferentValues || !property.boolValue;
             }
             EditorGUI.showMixedValue = false;
         }
