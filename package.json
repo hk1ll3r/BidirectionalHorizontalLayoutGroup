@@ -2,7 +2,7 @@
   "name": "com.nosuchstudio.ui.bidirectionalhorizontallayoutgroup",
   "displayName": "Bidirectionl Horizontal Layout Group",
   "version": "1.3.0",
-  "unity": "2019.1.3",
+  "unity": "2019.1",
   "description": "Bidirectionl Horizontal Layout Group helps you layout your UI controls in Right-to-left or Left-to-right order. Unity UI contains a HorizontalLayoutGroup which does the layout only from Left-To-Right. This package is perfect if you need to layout in RTL. For example if your UI is in an RTL language such as Arabic, Persian, Hebrew, etc. or if the user can change the language.",
   "keywords": [
     "Layout",
