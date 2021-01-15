@@ -1,6 +1,8 @@
 # Bidirectional Horizontal Layout Group
 [![openupm](https://img.shields.io/npm/v/com.nosuchstudio.ui.bidirectionalhorizontallayoutgroup?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.nosuchstudio.ui.bidirectionalhorizontallayoutgroup/)
 
+:warning: This component is only useful for Unity 2019.4.x and earlier. In Unity 2020.1 and newer the default Horizontal Layout Group supports reverse layout of its children so you won't need this asset.  
+
 A Unity3D horizontal layout group that supports both left-to-right and right-to-left. Useful if you are building a UI for an RTL language such as Arabic, Persian, Hebrew, etc. or if you support multiple languages in your app.
 
 The component works just like the default HorizontalLayoutGroup. The only difference is the addition of the "reverse" field. When "reverse" is checked, the layout is done from right to left.
